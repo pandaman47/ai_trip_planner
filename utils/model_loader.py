@@ -45,6 +45,6 @@ class ModelLoader(BaseModel):
         return llm
     
 if __name__ == "__main__":
-    model_loader = ModelLoader("model_provider="groq")
+    model_loader = ModelLoader(model_provider="groq")
     llm = model_loader.load_llm()
     print(f"LLM loaded: {llm}")
