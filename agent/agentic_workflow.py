@@ -6,7 +6,15 @@ from prompt_library.prompt import SYSTEM_PROMPT
 
 
 class GraphBuilder():
-    def __init__(self, model_provider:str = "groq"):
-        self.model_loader = ModelLoader(model_provider=model_provider)
-        self.llm = self.model_loader.load_llm()
-        
+    def __init__(self):
+        pass
+
+    def agent_function(self):
+        pass
+
+    def build_graph(self):
+        pass
+
+    def __call__(self):
+        pass
+
