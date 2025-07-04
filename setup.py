@@ -22,11 +22,11 @@ def get_requirements() -> List[str]:
 
     return requirement_list
 
-print(get_requirements())
+#print(get_requirements())
 
 setup(
-    name='AI-travel_planner',
-    version='0.1.0',
+    name='AI_travel_planner',
+    version='0.0.1',
     author='Saketh',
     packages=find_packages(),
     install_requires=get_requirements(),

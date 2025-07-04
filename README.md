@@ -14,7 +14,7 @@
 
 '''uv add pandas'''
 
-# If you have conda deactivate that'''
+'''If you have conda deactivate that'''
 '''conda deactivate'''
 
 '''uv venv env --python cpython...'''
