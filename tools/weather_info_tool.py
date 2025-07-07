@@ -9,7 +9,7 @@ class WeatherInfoTool:
     
     def __init__(self):
         load_dotenv()
-        self.api_key = os.environ.getenv("WEATHER_API_KEY")
+        self.api_key = os.getenv("WEATHER_API_KEY")
         self.weather_service = WeatherForecastTool(self.api_key)
         self.weather_tool_list = self._setup_tools()
 
